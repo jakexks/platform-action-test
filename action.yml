@@ -1,0 +1,5 @@
+name: terraform
+description: "Deploy current branch to a target"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
